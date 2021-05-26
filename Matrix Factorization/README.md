@@ -19,3 +19,9 @@ Then the linear system Ux=b can be solved using backward substitution:
 ![image](https://user-images.githubusercontent.com/73054794/119589734-1bb16f00-bddc-11eb-886d-f6bdc5df04e9.png)
 
 So thats what the forward substitution and the  backward substitution functions do.
+
+No we know that matrix A has a unique decomposition A=LU with L unit lower triangular and U non singular upper triangular if and only if all its principal sub matrices are non singular.
+
+The Non singular function checks that. So the LU factarization algorithm is:
+
+![image](https://user-images.githubusercontent.com/73054794/119590753-0e957f80-bdde-11eb-89f3-2fc42876f33d.png)
