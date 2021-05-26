@@ -1,5 +1,5 @@
 def forward_sub(L,b):
-  x = [0] * len(L[0]) // Zero vector
+  x = [0] * len(L[0]) # Zero vector
   for i in range(len(L[0])):
     sum_num = 0
     for k in range(i): 
